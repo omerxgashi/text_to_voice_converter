@@ -1,0 +1,142 @@
+
+body {
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 90%);
+    
+}
+.main-content {
+    height: 100vh;
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-header {
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+}
+
+.main-content h1 {
+    color: #f8e9bc;
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    
+}
+
+#first-span {
+    color: #585858;
+}
+
+#second-span {
+    color: #fff;
+}
+#txt {
+    height: 220px;
+    width: 520px;
+    min-height: auto;
+    max-height: auto;
+    min-width: auto;
+    max-width: auto;
+    background: transparent;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 14px;
+    resize: none;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 115px;
+}
+
+#btn {
+    height: 40px;
+    width: auto;
+    border-radius: 50px;
+    border: none;
+    background-color: #A6C8E2;
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    cursor: pointer;
+}
+
+#audio {
+    width: 56px;
+    height: 38px;
+    
+}
+
+select {
+    flex:0.35;
+    height: 40px;
+    border: 0;
+    border-radius: 35px;
+    padding: 0 20px;
+    appearance: none;
+    background-color: #fff;
+    background-image: url(imgs/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 15px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .main-content h1 {
+        font-size: 18px; 
+        margin-bottom: 30px;
+        
+    }
+    #main-header {
+        font-size: 27px;
+        
+    }
+
+    #txt {
+        width: 70%;
+    }
+
+    #btn {
+        width: auto;
+    }
+    select {
+        width: auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .main-content h1 {
+        font-size: 24px; 
+        margin-bottom: 15px; 
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    
+    .main-content h1 {
+        font-size: 30px; 
+        margin-bottom: 20px; 
+    }
+}
